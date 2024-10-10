@@ -1,0 +1,50 @@
+* {
+  background-color: azure;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h1,
+h2 {
+  text-transform: uppercase;
+  color: darkslateblue;
+}
+
+a {
+  color: #be0505;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.recipe-list li {
+  font-size: 24px;
+  font-weight: 600;
+  list-style: none;
+  background-color: white;
+}
+
+p {
+  font-style: italic;
+  color: #eb7d08;
+  font-weight: 500;
+}
+
+ul li {
+  background-color: rgb(240, 209, 162);
+  list-style-position: inside;
+}
+
+.odd {
+  background-color: aqua;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.even {
+  font-size: 15px;
+  font-style: oblique;
+  color: green;
+}
