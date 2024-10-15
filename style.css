@@ -4,6 +4,18 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 h1 {
   font-size: 28px;
 }
@@ -15,36 +27,53 @@ h2 {
 }
 
 a {
-  color: #be0505;
+  color: darkslateblue;
   font-size: 16px;
   text-decoration: none;
+  background-color: transparent;
 }
 
 .recipe-list li {
   font-size: 24px;
   font-weight: 600;
   list-style: none;
-  background-color: white;
+  background-color: rgb(155, 228, 240);
 }
 
+.recipe li {
+  display: inline-block;
+  list-style: none;
+  text-align: left;
+  padding-top: 3px;
+}
 p {
   font-style: italic;
-  color: #eb7d08;
   font-weight: 500;
 }
 
 ul li {
-  background-color: rgb(240, 209, 162);
+  padding: 0px 25px 5px 25px;
   list-style-position: inside;
+  border: 1px solid darkslateblue;
+  margin: 4px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.recipe-style {
+  text-align: center;
+  text-decoration: underline;
 }
 
 .odd {
-  background-color: aqua;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
 }
 
 .even {
-  font-size: 15px;
-  font-style: oblique;
-  color: green;
+  padding: 2px;
+}
+
+.source {
+  float: right;
+  text-decoration: underline;
 }
